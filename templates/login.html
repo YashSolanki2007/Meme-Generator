@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <style>
+        .body {
+            font-family: 'sans-serif';
+        }
+
+        .loginBtn {
+            height: 40px;
+            width: 30%;
+            cursor: pointer;
+            border-radius: 6px;
+            background-color: rgb(184, 184, 222);
+        }
+
+        .loginBtn:hover {
+            background-color: rgb(180, 208, 180);
+        }
+
+        .usernameInp {
+            width: 90%;
+            height: 25px;
+        }
+
+        .passwordInp {
+            width: 90%;
+            height: 25px;
+        }
+
+        .login {
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+    </style>
+
+    <script>
+        console.log("Testing");
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body class='body'>
+    <center>
+        <div class="login">
+            <form action='/main'>
+                <h1>Login</h1>
+                <hr />
+                <br />
+                <input id='userName' class='usernameInp' placeholder='Enter Username' />
+                <br /><br /><br />
+                <input class='passwordInp' placeholder='Enter Password' />
+                <br /><br /><br /><br /><br /><br />
+                <button class='loginBtn'>Login</button>
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>

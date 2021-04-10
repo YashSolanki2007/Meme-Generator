@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <style>
+        .body {
+            font-family: 'sans-serif';
+        }
+
+        .memeImg {
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .genBtn {
+            width: 120px;
+            height: 35px;
+            cursor: pointer;
+            background-color: rgb(192, 192, 234);
+        }
+
+        .genBtn:hover {
+            background-color: rgb(173, 228, 173);
+        }
+
+        .memeTextInp {
+            height: 25px;
+            width: 30%;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Talk</title>
+</head>
+
+<body class='body'>
+    <center>
+        <h1>Meme Talk. The real time Meme Generator</h1>
+        <br /><br /><br />
+        <form method='POST'>
+            <input class='memeTextInp' placeholder='Enter the top text' name='top'>
+            <br /><br /><br />
+            <input class='memeTextInp' placeholder='Enter the bottom text' name='bottom'>
+            <br /><br />
+            <button class='genBtn'>Get Meme</button>
+            <br /><br /><br /><br /><br />
+            <br />
+            <h1>
+                
+            </h1>
+            <img class='memeImg' src=>
+            <h1>
+                
+            </h1>
+        </form>
+    </center>
+</body>
+
+</html>
